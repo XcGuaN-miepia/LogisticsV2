@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="PlaceFactory">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='cn.zzt.graduation.Logistics.PlaceFactory' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/PlaceFactory/greet" class="cn.zzt.graduation.Logistics.server.GreetingServiceImpl" />
+
+</module>
